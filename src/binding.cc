@@ -530,12 +530,12 @@ static NAN_METHOD(EPVersion) {
   Nan::Set(vinfo,
            Nan::New("rev").ToLocalChecked(),
            Nan::New(v.rev));
-  Nan::Set(vinfo,
+  /*Nan::Set(vinfo,
            Nan::New("suffix").ToLocalChecked(),
            Nan::New(v.suffix.c_str()).ToLocalChecked());
   Nan::Set(vinfo,
            Nan::New("full").ToLocalChecked(),
-           Nan::New(v.full.c_str()).ToLocalChecked());
+           Nan::New(v.full.c_str()).ToLocalChecked());*/
   Nan::Set(vinfo,
            Nan::New("numeric").ToLocalChecked(),
            Nan::New(v.numeric));
