@@ -47,6 +47,10 @@
             'QTKit',
             'QuartzCore',
             'OpenGL',
+            'AVFoundation',
+            'CoreGraphics',
+            'CoreVideo',
+            'CoreMedia'
           ],
           'libraries': [
             'CoreAudio.framework',
