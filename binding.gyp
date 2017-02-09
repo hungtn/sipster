@@ -30,6 +30,7 @@
             'OTHER_CFLAGS': [
               '-fexceptions',
               '-frtti',
+              '<!@(pkg-config --cflags libpjproject)',
             ],
           },
 
